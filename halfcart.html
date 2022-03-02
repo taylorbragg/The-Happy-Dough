@@ -1,0 +1,85 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/app.css">
+
+  <meta name="theme-color" content="#fafafa">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+</head>
+
+<body class="page-halfcart">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/app.js"></script>
+
+  <div class="half">
+    <div class="top">
+      <h1> MY BOX </h1>
+      <img src="img/edit-solid.svg">
+    </div>
+
+    <div class="donut">
+      <img src="img/donut-choc-sprink-nuts.svg">
+      <h1> BYO DONUT </h1>
+      <p> QTY. 1 | $1.25 </p>
+    </div>
+
+
+    <div class="total">
+        <p> TOPPINGS <span class="price">$1.25</span></p>
+        <p> TAX <span class="price">$0.75</span></p>
+        <p class="final"> TOTAL <span class="price"><b>$3.25</b></span></p>
+    </div>
+
+    <button onclick="window.location.href='fullcart.html'"> CHECKOUT </button>
+  </div>
+
+  <div class="overlay">
+  </div>
+
+<div class="main">
+  <div class="header">
+    <img src="img/donut-box-cart.svg">
+    <img src="img/happydough-logo-pink.png">
+  </div>
+
+  <div class="amount">
+      <h1> HOW MANY? </h1>
+      
+      <form class="counter">
+        <div class="count">
+          <button class="decrease"><</button>
+
+        <label for="quantity">Quantity</label>
+        <input type="text" id="quantity" value="0">
+
+          <button class="increase">></button>
+        </div>
+
+        <div class="cart">
+          <button>Add to Cart</button>
+        </div>
+      </form>
+    </div>
+</div>
+
+</body>
+
+</html>

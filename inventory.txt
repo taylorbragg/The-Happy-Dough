@@ -1,0 +1,27 @@
+1. Home (index.html)
+
+2. Login or Sign up (member.html)
+
+3. Pin (pin.html)
+	>> Loading Screen
+
+4. Order Home (orderhome.html)
+
+5. Order - base *selection* (orderbase.html)
+
+6. Order - icing *selection* (ordericing.html)
+
+7. Order - toppings *selection* (ordertoppings.html)
+
+8. Quantity/Add to Cart (quantity.html)
+	>> Loading Screen
+
+9. Half cart overlay (halfcart.html)
+
+10. Full cart page (fullcart.html)
+
+11. Checkout (checkout.html)
+
+12. Confirmation (confirmation.html)
+
+13. Back to "Home"
